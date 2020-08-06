@@ -1,10 +1,12 @@
 /* Add CSS styling here */
- *{
+
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     max-width: 100%;
     border: 1px solid grey;
+     font-family: 'Comfortaa', cursive;
 } 
 
 html{
@@ -13,7 +15,29 @@ html{
 
 body{
     font-size: 1.6rem;
+    background-image: url("https://img.pngio.com/fully-simple-wrinkled-paper-background-paper-wrinkle-background-wrinkled-paper-png-640_856.png");
+    background-image: fixed;
+}
 
+.home{
+    background: #f99906;
+    padding: 1rem;
+}
+
+
+.about{
+    background: #f99906;
+    padding: 1rem;
+}
+
+.contact{
+    background: #f99906;
+    padding: 1rem;
+}
+
+.project{
+    background: #f99906;
+    padding: 1rem;
 }
 
 .container1{
@@ -44,10 +68,37 @@ body{
 }
 
 .container2{
-    display: flex;
-    background-image: url();
-    height: 30VH;
-    background-size: cover;
-    
+        display:flex;
+        width: 100%;
+        height: 100%;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items:center;
     
 }
+
+
+
+.container3{
+    display: flex;
+    flex-direction: space-evenly;
+    width: 100%; 
+    height: 25rem;
+}
+
+.container3 a{
+    width: 20rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #FF76E;
+}
+
+footer a:hover{
+    background-color: #FF764E;
+}
+
+
+
