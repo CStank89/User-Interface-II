@@ -48,7 +48,7 @@ body{
 
 .cabin{
   width: 100%;
-  margin: 2%;
+  margin: 0% 5%;
 }
 
 .photo2{
@@ -61,10 +61,6 @@ body{
 
 
 .container3{
-    /* display: flex;
-    flex-direction: space-evenly;
-    width: 100%;
-    height: 100%; */
         display:flex;
         width: 100%; 
         height: 100%;
@@ -94,13 +90,12 @@ body{
 
 /* Media Queries */
 
-/* @media(max-width:800px){
-    .container1{
-        max-width: 800px;
-    
+ @media(max-width:800px){
+   .container3{ 
+     margin: 5%;
     }
 
-} */
+} 
 
 @media(max-width:500px){
   #navbar{
@@ -108,18 +103,24 @@ body{
     margin: 0 auto;
     width: 20%;
   }
+  #text{
+    margin:5%;
+  }
   
   .cabin{
     align-items: center;
-    wdith:80%;
+    width:80%;
+    margin: 0 auto;
   }
-    .container3{
-     display: flex;
-     flex-direction: column;
-     width: 60%;
-     margin: 0 auto;
+    .container3{ 
+     flex-wrap:wrap;
+   
+     width: 100%;
     }
-  .container3 photo2{
-    padding: 5px;
+  .photo2{
+    width: 38%;
+    margin: 0 auto;
+    
   }
+ 
 }
