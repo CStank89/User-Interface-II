@@ -1,7 +1,3 @@
-/* Add CSS styling here */
-
-
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,81 +17,42 @@ body{
     background-image: fixed;
 }
 
-.home{
-    background: #f99906;
-    padding: 1rem;
-}
 
-
-.about{
-    background: #f99906;
-    padding: 1rem;
-}
-
-.contact{
-    background: #f99906;
-    padding: 1rem;
-}
-
-.project{
-    background: #f99906;
-    padding: 1rem;
-}
-
-@media(max-width:800px){
-    .container1{
-        max-width: 800px;
-    
-    }
-
-}
-
-@media(max-width:500px){
-    .container1{
-        max-width:500px;
-    }
-}
 
 .container1{
     display: flex;  
     flex-direction: column;
-    justify-content: space-evenly;
-    aling-content: center;
     margin: 0 auto;
 }
 
-.container1 h1{
-    align-content: center;
-    width: 50%;
-    text-align: center;
-
+.container1 p{
+  margin: 2%;
 }
 
-.container h2{
-    width: 50%
+.navlink{
+  text-align:center;
 }
-
-#navbar{
+ 
+/* #navbar{
     display:flex;
     width:50;
     margin: 0 auto;
     padding: 1rem;
 
-}
+} */
 
 .container2{
         display:flex;
         width: 100%;
-        height: 80%;
-        flex-flow: row wrap;
-        object-fit: contain;    
 }
 
 .cabin{
-
-    width:100%;
+  width: 100%;
+  margin: 0% 5%;
 }
+
 .photo2{
+  padding: 1%;
   width: 100%;
   height: 100%;
 }
@@ -104,10 +61,6 @@ body{
 
 
 .container3{
-    /* display: flex;
-    flex-direction: space-evenly;
-    width: 100%;
-    height: 100%; */
         display:flex;
         width: 100%; 
         height: 100%;
@@ -116,22 +69,58 @@ body{
 }
 
 
-
-#footer{
+ 
+#navbar{
     display:flex;
-    width: 100%;
-    background: grey;
-}
-
-#footer a{
     justify-content: center;
-    font-size:1.3rem;
-
+    width: 100%;    
 }
 
-#footer a:hover{
+#navbar a{
+    font-size:1.3rem;
+    border: .1rem dotted grey;
+    align-text: center;
+}
+
+#navbar a:hover{
     background-color: #FF764E;
     
+} 
+
+
+/* Media Queries */
+
+ @media(max-width:800px){
+   .container3{ 
+     margin: 5%;
+    }
+
+} 
+
+@media(max-width:500px){
+  #navbar{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 20%;
+  }
+  #text{
+    margin:5%;
+  }
+  
+  .cabin{
+    align-items: center;
+    width:80%;
+    margin: 0 auto;
+  }
+    .container3{ 
+     flex-wrap:wrap;
+   
+     width: 100%;
+    }
+  .photo2{
+    width: 38%;
+    margin: 0 auto;
+    
+  }
+ 
 }
-
-
