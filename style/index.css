@@ -17,26 +17,6 @@ body{
     background-image: fixed;
 }
 
-.home{
-    background: #f99906;
-    padding: 1rem;
-}
-
-
-.about{
-    background: #f99906;
-    padding: 1rem;
-}
-
-.contact{
-    background: #f99906;
-    padding: 1rem;
-}
-
-.project{
-    background: #f99906;
-    padding: 1rem;
-}
 
 
 .container1{
@@ -48,6 +28,11 @@ body{
 .container1 p{
   margin: 2%;
 }
+
+.navlink{
+  text-align:center;
+}
+ 
 /* #navbar{
     display:flex;
     width:50;
